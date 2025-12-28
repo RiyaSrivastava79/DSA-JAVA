@@ -41,6 +41,7 @@ public class LinkedList {
         tail.next = newNode;
         tail = newNode;
     }
+    //primt ll
     public void print(){
         if(head == null){
             System.out.println("LL is empty");
@@ -55,6 +56,7 @@ public class LinkedList {
 
 
     }
+    //add middle
     public void add(int idx, int data){
         if(idx == 0){
             addFirst(data);
@@ -417,8 +419,8 @@ public class LinkedList {
 
             //         ll.print();
             //         System.out.println(ll.checkPalindrome());
-            //     }
-            // }
+            //      }
+            //  }
 
                 // public static void main(String args[]){
                 //     LinkedList ll = new LinkedList(); 
