@@ -1,5 +1,4 @@
 package BinaryTrees;
-import java.util.*;
 
 public class Distencebetnodes {
 
@@ -13,7 +12,7 @@ public class Distencebetnodes {
         }
     }
 
-    // ✅ Function to find LCA of two nodes
+    // Function to find LCA of two nodes
     public static Node lca(Node root, int n1, int n2) {
         if (root == null || root.data == n1 || root.data == n2) {
             return root;
