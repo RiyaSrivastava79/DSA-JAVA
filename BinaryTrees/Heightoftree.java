@@ -1,7 +1,5 @@
 package BinaryTrees;
 
-import java.lang.reflect.Method;
-
 public class Heightoftree {
     // Node class
     static class Node {

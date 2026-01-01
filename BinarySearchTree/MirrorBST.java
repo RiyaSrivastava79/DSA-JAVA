@@ -1,5 +1,4 @@
 package BinarySearchTree;
-import java.util.*;
 public class MirrorBST {
 
     // Node class
