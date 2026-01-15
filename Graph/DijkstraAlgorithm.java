@@ -45,10 +45,10 @@ public class DijkstraAlgorithm {
 
         while (!pq.isEmpty()) {
             Pair curr = pq.remove();
-
+            // loop
             if (!vis[curr.node]) {
                 vis[curr.node] = true;
-
+                // neighbour
                 for (int i = 0; i < graph[curr.node].size(); i++) {
                     Edge e = graph[curr.node].get(i);
                     int u = e.src;
